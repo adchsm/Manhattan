@@ -18,9 +18,9 @@ Manhattan should be compatible with nearly all browsers, including IE8 with the 
 
 ### Raising Issues
 
-Please don't post feature requests here, thats not an issue. Instead [email me](mailto:adam@adchsm.me) your ideas.
+Please don't post feature requests here, that's not an issue. Instead [email me](mailto:adam@adchsm.me) your ideas.
 
-If you've found an issue that's great, I'd like to hear as I'll always be looking to make the grid better.
+If you've found an issue that's great, I'd like to hear as I'm always looking to improve the grid.
 
 Please provide as much information about the bug as possible. Include a url which demonstrates the issue, or if you don't want to publicly reveal your url, create a [JSFiddle](http://jsfiddle.net/). Alternatively you can [email me](mailto:adam@adchsm.me) for support.
 
