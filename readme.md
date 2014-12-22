@@ -13,6 +13,7 @@ Manhattan should be compatible with nearly all browsers, including IE8 with the 
 * Release the first stable version
 * Make a Sass version
 * Column alignments
+* WordPress plugin
 
 ## How to Contribute to Manhattan Using GitHub
 
