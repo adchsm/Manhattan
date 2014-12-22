@@ -9,7 +9,8 @@ For examples and usage instructions, please see the Manhattan website (coming so
 Manhattan should be compatible with nearly all browsers, including IE8 with the help of a media query polyfill. However, if you do run into any errors using it, please let me know.
 
 ## Todo & Possible Future Features
-
+* Bug test
+* Add media query clears
 * Release the first stable version
 * Make a Sass version
 * Column alignments
