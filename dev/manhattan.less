@@ -1,6 +1,6 @@
 /*!
  * Manhattan - A clean, lightweight and customisable CSS grid.
- * Version: Development
+ * Version: Development 1.0 alpha
  * Url: http://www.adchsm.me/manhattan/
  * Author: Adam Charles Smith
  * Author url: http://www.adchsm.me/
@@ -8,18 +8,17 @@
  * License url: http://www.adchsm.me/manhattan/license.txt
  */
 
-/*
- * Manhattan CSS Index
- * 001 - Variables
- * 001 - Setup
- * 002 - Containers
- * 003 - Row
- * 004 - Columns
- */
+// ---------------
+// Manhattan Index
+// 001 - Variables
+// 002 - Setup
+// 003 - Containers
+// 004 - Row
+// 005 - Columns
+// 006 - Clears
 
-/**
- * 001 - Variables
- */
+// ---------------
+// 001 - Variables
 
 @gutter: 15px;
 @container-width: 1200px;
@@ -28,9 +27,8 @@
 @break-point-lg: 1200px;
 @break-point-xl: 1500px;
 
-/**
- * 002 - Setup
- */
+// -----------
+// 002 - Setup
 
 html, body, [mhtn] {
 	-webkit-box-sizing: border-box;
@@ -40,54 +38,51 @@ html, body, [mhtn] {
 	padding: 0;
 }
 
-/**
- * 003 - Containers
- */
+// ----------------
+// 003 - Containers
 
 [mhtn*="container"] {
-	max-width: @container-width;
 	margin-left: auto;
 	margin-right: auto;
+	max-width: @container-width;
 	padding-left: @gutter;
 	padding-right: @gutter;
+	
+	// The flex container is full width with padding
+	&[mhtn*="flex"] {
+		max-width: none;
+	}
+	
+	// The edge container is full width without padding
+	&[mhtn*="edge"] {
+		max-width: none;
+		overflow: hidden;
+		padding-left: 0;
+		padding-right: 0;
+	}
 }
 
-/* The flex container is full width with padding */
-[mhtn*="container-flex"] {
-	max-width: none;
-}
-
-/* The edge container is full width without padding */
-[mhtn*="container-edge"] {
-	max-width: none;
-	padding-left: 0;
-	padding-right: 0;
-	overflow: hidden;
-}
-
-/**
- * 004 - Rows
- */
+// ----------
+// 004 - Rows
 
 [mhtn*="row"] {
 	margin-left: -@gutter;
 	margin-right: -@gutter;
+	
+	// Clear
+	&:before,
+	&:after {
+		content: " ";
+		display: table;
+	}
+	
+	&:after {
+		clear: both;
+	}
 }
 
-/* Clear */
-[mhtn*="row"]:before,
-[mhtn*="row"]:after {
-	content: " ";
-	display: table;
-}
-
-[mhtn*="row"]:after {
-	clear: both;
-}
-
-/**
- * 005 - Columns
- */
+// -------------
+// 005 - Columns
 
 [mhtn*="col"] {
 	padding-left: @gutter;
@@ -95,11 +90,12 @@ html, body, [mhtn] {
 	float: left;
 }
 
+// Change float direction for rtl languages, add dir="rtl" to your html element
 html[dir="rtl"] [mhtn*="col"] {
-	float: right; /* Change float direction for rtl languages, add dir="rtl" to your html element */
+	float: right;
 }
 
-/* Extra small screens */	
+// Extra small screens
 	[mhtn*="xs-10"] {
 		width: 10%;
 	}
@@ -156,7 +152,7 @@ html[dir="rtl"] [mhtn*="col"] {
 		width: 75%;
 	}
 
-/* Small screens */
+// Small screens
 @media ( min-width: @break-point-sm ) {
 	[mhtn*="sm-10"] {
 		width: 10%;
@@ -215,7 +211,7 @@ html[dir="rtl"] [mhtn*="col"] {
 	}
 }
 
-/* Medium screens */
+// Medium screens
 @media ( min-width: @break-point-md ) {
 	[mhtn*="md-10"] {
 		width: 10%;
@@ -274,7 +270,7 @@ html[dir="rtl"] [mhtn*="col"] {
 	}
 }
 
-/* Large screens */
+// Large screens
 @media ( min-width: @break-point-lg ) {
 	[mhtn*="lg-10"] {
 		width: 10%;
@@ -333,7 +329,7 @@ html[dir="rtl"] [mhtn*="col"] {
 	}
 }
 
-/* Extra large screens */
+// Extra large screens
 @media ( min-width: @break-point-xl ) {
 	[mhtn*="xl-10"] {
 		width: 10%;
@@ -389,5 +385,61 @@ html[dir="rtl"] [mhtn*="col"] {
 	
 	[mhtn*="xl-75"] {
 		width: 75%;
+	}
+}
+
+// ------------
+// 006 - Clears
+
+[mhtn*="clear"] {
+	&:before,
+	&:after {
+		content: " ";
+		display: table;
+	}
+	
+	// Extra small screens
+	&[mhtn*="xs"] {
+		@media ( max-width: ( @break-point-sm - 1 ) ) {
+			&:after {
+				clear: both;
+			}
+		}
+	}
+	
+	// Small screens
+	&[mhtn*="sm"] {
+		@media ( min-width: @break-point-sm ) and ( max-width: ( @break-point-md - 1 ) ) {
+			&:after {
+				clear: both;
+			}
+		}
+	}
+	
+	// Medium screens
+	&[mhtn*="md"] {
+		@media ( min-width: @break-point-md ) and ( max-width: ( @break-point-lg - 1 ) ) {	
+			&:after {
+				clear: both;
+			}
+		}
+	}
+	
+	// Large screens
+	&[mhtn*="lg"] {
+		@media ( min-width: @break-point-lg ) and ( max-width: ( @break-point-xl - 1 ) ) {
+			&:after {
+				clear: both;
+			}
+		}
+	}
+	
+	// Extra large screens
+	&[mhtn*="xl"] {
+		@media ( min-width: @break-point-xl ) {
+			&:after {
+				clear: both;
+			}
+		}
 	}
 }

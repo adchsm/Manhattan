@@ -10,9 +10,8 @@ Manhattan should be compatible with nearly all browsers, including IE8 with the 
 
 ## Todo & Possible Future Features
 * Bug test
-* Add media query clears
 * Release the first stable version
-* Make a Sass version
+* Create Sass version
 * Column alignments
 * WordPress plugin
 
