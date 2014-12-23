@@ -4,7 +4,7 @@ Manhattan is a clean, lightweight and customisable CSS grid.
 
 Manhattan uses it's own data attributes to keep your class markup clean. It features three different containers for constrained, flexible and edge-to-edge layouts. Manhattan doesn't use a traditional 12 column layout, but instead opts for straight forward percentages. It's also equipped with five optional breakpoints for total control over your layout. It's lightweight at 2896 bytes minified and 589 bytes gzipped.
 
-Examples and usage instructions will be coming soon properly on a Manhattan website, so for now here are the basic markup.
+Examples and usage instructions will be coming soon, so for now here is the basic markup.
 
 ``` html
 <div mhtn="container"><!-- Can use "container flex" or "container edge" -->
