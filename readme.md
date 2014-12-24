@@ -31,7 +31,7 @@ Examples and usage instructions will be coming soon, so for now here is the basi
   </div>
   
   <div mhtn="row">
-    <div mhtn="col xs-100></div>
+    <div mhtn="col xs-100"></div>
   </div>
   
 </div>
