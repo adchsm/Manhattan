@@ -18,6 +18,8 @@ Pre-styled and assembled from components, I see too many websites lacking creati
 
 I struggled to find a flexible grid without a heavy footprint, so I created Manhattan. It's ultra light, weighing in at 2.8 kb minified/658 bytes gzipped and released under the MIT license, free to use and abuse.
 
+Enjoy
+
 ## Usage
 
 Examples and usage instructions will be coming soon, so for now here is the basic markup.
@@ -48,8 +50,6 @@ Examples and usage instructions will be coming soon, so for now here is the basi
 ## How to Contribute Using GitHub
 
 ### Raising Issues
-
-Please don't post feature requests here, that's not an issue. Instead [email me](mailto:adam@adchsm.me) your ideas.
 
 If you've found an issue that's great, I'd like to hear as I'm always looking to improve the grid.
 
