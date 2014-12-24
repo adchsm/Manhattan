@@ -8,7 +8,9 @@ It offers three containers, the default restricts content on screens over a spec
 
 Manhattan doesn't use a traditional 12 column layout, but instead opts for straight forward percentages. There are five break points for total control over your layout, where you can specify a width for each column at each screen size.
 
-------
+Manhattan supports all modern browsers and most older ones, including IE 8 with the help of a media query polyfill. It is also validated by the [W3C CSS Jigsaw Service](http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.adchsm.me%2Fmanhattan%2Fmanhattan.css&profile=css3&usermedium=all&warning=1&vextwarning=&lang=en).
+
+### Why?
 
 There is no shortage of CSS grids available and with so many frameworks offering everything you need, it can be hard to know which use, if any.
 
@@ -22,16 +24,18 @@ Examples and usage instructions will be coming soon, so for now here is the basi
 
 ``` html
 <div mhtn="container"><!-- Can use "container flex" or "container edge" -->
+
   <div mhtn="row">
     <div mhtn="col xs-100 sm-80 md-75 lg-70 xl-66"></div>
     <div mhtn="col xs-100 sm-20 md-25 lg-30 xl-33"></div>
   </div>
+  
+  <div mhtn="row">
+    <div mhtn="col xs-100></div>
+  </div>
+  
 </div>
 ```
-
-## Compatibility
-
-Manhattan supports all modern browsers and most older ones, including IE 8 with the help of a media query polyfill. It is also validated by the [W3C CSS Jigsaw Service](http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.adchsm.me%2Fmanhattan%2Fmanhattan.css&profile=css3&usermedium=all&warning=1&vextwarning=&lang=en).
 
 ## Todo & Possible Future Features
 
