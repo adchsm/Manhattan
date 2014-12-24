@@ -8,6 +8,8 @@ It offers three containers, the default restricts content on screens over a spec
 
 Manhattan doesn't use a traditional 12 column layout, but instead opts for straight forward percentages. There are five break points for total control over your layout, where you can specify a width for each column at each screen size.
 
+------
+
 There is no shortage of CSS grids available and with so many frameworks offering everything you need, it can be hard to know which use, if any.
 
 Pre-styled and assembled from components, I see too many websites lacking creativity and imagination. Although a grid isn't necessary either, it can be a useful tool for speeding up development without interrupting your website's personality.
