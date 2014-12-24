@@ -2,7 +2,21 @@
 
 Manhattan is a clean, lightweight and customisable CSS grid.
 
-Manhattan uses it's own data attributes to keep your class markup clean. It features three different containers for constrained, flexible and edge-to-edge layouts. Manhattan doesn't use a traditional 12 column layout, but instead opts for straight forward percentages. It's also equipped with five optional breakpoints for total control over your layout. It's lightweight at 2896 bytes minified and 589 bytes gzipped.
+Named after the greatest grid system in the world, Manhattan is a modern and easy to use CSS grid. It uses it's own data-attribute `mhtn` keeping your class markup clean.
+
+It offers three containers, the default restricts content on screens over a specified width, whereas flex and edge allow you to maximize any screen width.
+
+Manhattan doesn't use a traditional 12 column layout, but instead opts for straight forward percentages. There are five break points for total control over your layout, where you can specify a width for each column at each screen size.
+
+## Why Manhattan?
+
+There is no shortage of CSS grids available and with so many frameworks offering everything you need, it can be hard to know which use, if any.
+
+Pre-styled and assembled from components, I see too many websites lacking creativity and imagination. Although a grid isn't necessary either, it can be a useful tool for speeding up development without interrupting your website's personality.
+
+I struggled to find a flexible grid without a heavy footprint, so I created Manhattan. It's ultra light, weighing in at 2.8 kb minified/658 bytes gzipped and released under the MIT license, free to use and abuse.
+
+## Usage
 
 Examples and usage instructions will be coming soon, so for now here is the basic markup.
 
@@ -15,9 +29,12 @@ Examples and usage instructions will be coming soon, so for now here is the basi
 </div>
 ```
 
-Manhattan should be compatible with nearly all browsers, including IE8 with the help of a media query polyfill. However, if you do run into any errors using it, please let me know.
+## Compatibility
+
+Manhattan supports all modern browsers and most older ones, including IE 8 with the help of a media query polyfill. It is also validated by the [W3C CSS Jigsaw Service](http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.adchsm.me%2Fmanhattan%2Fmanhattan.css&profile=css3&usermedium=all&warning=1&vextwarning=&lang=en).
 
 ## Todo & Possible Future Features
+
 * Bug test
 * Release the first stable version
 * Create Sass version
