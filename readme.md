@@ -58,3 +58,7 @@ Please provide as much information about the bug as possible. Include a url whic
 ### Pull Requests
 
 Pull request are welcome, please make sure your modifications are to the development version of Manhattan, and they are extremely well tested!
+
+### Feature Requests
+
+If you have an idea or a request, just raise an issue. Please provide as much detail as possible, demos and examples would be fantastic if appropriate.
