@@ -1,6 +1,6 @@
 /*!
  * Manhattan - A clean, lightweight and customisable CSS grid.
- * Version: Development 1.0 alpha
+ * Version: Development 1.0 beta
  * Url: http://www.adchsm.me/manhattan/
  * Author: Adam Charles Smith
  * Author url: http://www.adchsm.me/
@@ -21,11 +21,11 @@
 // 001 - Variables
 
 $gutter: 15px;
-$container-width: 1200px;
-$break-point-sm: 600px;
-$break-point-md: 900px;
-$break-point-lg: 1200px;
-$break-point-xl: 1500px;
+$container-max: 1200px;
+$breakpoint-sm: 600px;
+$breakpoint-md: 900px;
+$breakpoint-lg: 1200px;
+$breakpoint-xl: 1500px;
 
 // -----------
 // 002 - Setup
@@ -44,7 +44,7 @@ html, body, [mhtn] {
 [mhtn*=container] {
 	margin-left: auto;
 	margin-right: auto;
-	max-width: $container-width;
+	max-width: $container-max;
 	padding-left: $gutter;
 	padding-right: $gutter;
 	
@@ -153,7 +153,7 @@ html[dir=rtl] [mhtn*=col] {
 	}
 
 // Small screens
-@media ( min-width: $break-point-sm ) {
+@media ( min-width: $breakpoint-sm ) {
 	[mhtn*=sm-10] {
 		width: 10%;
 	}
@@ -212,7 +212,7 @@ html[dir=rtl] [mhtn*=col] {
 }
 
 // Medium screens
-@media ( min-width: $break-point-md ) {
+@media ( min-width: $breakpoint-md ) {
 	[mhtn*=md-10] {
 		width: 10%;
 	}
@@ -271,7 +271,7 @@ html[dir=rtl] [mhtn*=col] {
 }
 
 // Large screens
-@media ( min-width: $break-point-lg ) {
+@media ( min-width: $breakpoint-lg ) {
 	[mhtn*=lg-10] {
 		width: 10%;
 	}
@@ -330,7 +330,7 @@ html[dir=rtl] [mhtn*=col] {
 }
 
 // Extra large screens
-@media ( min-width: $break-point-xl ) {
+@media ( min-width: $breakpoint-xl ) {
 	[mhtn*=xl-10] {
 		width: 10%;
 	}
@@ -400,7 +400,7 @@ html[dir=rtl] [mhtn*=col] {
 	
 	// Extra small screens
 	&[mhtn*=xs] {
-		@media ( max-width: ( $break-point-sm - 1 ) ) {
+		@media ( max-width: ( $breakpoint-sm - 1 ) ) {
 			&:after {
 				clear: both;
 			}
@@ -409,7 +409,7 @@ html[dir=rtl] [mhtn*=col] {
 	
 	// Small screens
 	&[mhtn*=sm] {
-		@media ( min-width: $break-point-sm ) and ( max-width: ( $break-point-md - 1 ) ) {
+		@media ( min-width: $breakpoint-sm ) and ( max-width: ( $breakpoint-md - 1 ) ) {
 			&:after {
 				clear: both;
 			}
@@ -418,7 +418,7 @@ html[dir=rtl] [mhtn*=col] {
 	
 	// Medium screens
 	&[mhtn*=md] {
-		@media ( min-width: $break-point-md ) and ( max-width: ( $break-point-lg - 1 ) ) {	
+		@media ( min-width: $breakpoint-md ) and ( max-width: ( $breakpoint-lg - 1 ) ) {	
 			&:after {
 				clear: both;
 			}
@@ -427,7 +427,7 @@ html[dir=rtl] [mhtn*=col] {
 	
 	// Large screens
 	&[mhtn*=lg] {
-		@media ( min-width: $break-point-lg ) and ( max-width: ( $break-point-xl - 1 ) ) {
+		@media ( min-width: $breakpoint-lg ) and ( max-width: ( $breakpoint-xl - 1 ) ) {
 			&:after {
 				clear: both;
 			}
@@ -436,7 +436,7 @@ html[dir=rtl] [mhtn*=col] {
 	
 	// Extra large screens
 	&[mhtn*=xl] {
-		@media ( min-width: $break-point-xl ) {
+		@media ( min-width: $breakpoint-xl ) {
 			&:after {
 				clear: both;
 			}

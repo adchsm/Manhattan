@@ -24,12 +24,16 @@ Enjoy
 
 Take a look at the [Usage](http://www.adchsm.me/manhattan/usage.html) and [Demo](http://www.adchsm.me/manhattan/demos.html) pages on the Manhattan website.
 
+## Version History
+
+* 1.0 Beta - Renamed a few variables, added Sass version created by [Benjamin Parry](https://github.com/benjaminparry).
+* 1.0 Alpha - Initial release.
+
 
 ## Todo & Possible Future Features
 
 * Bug test
 * Release the first stable version
-* Create Sass version
 * Column alignments
 * WordPress plugin
 
