@@ -10,8 +10,6 @@ Manhattan doesn't use a traditional 12 column layout, but instead opts for strai
 
 Manhattan supports all modern browsers and most older ones, including IE 8 with the help of a media query polyfill.
 
-It is also validated by the [W3C CSS Jigsaw Service](http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.adchsm.me%2Fmanhattan%2Fmanhattan.css&profile=css3&usermedium=all&warning=1&vextwarning=&lang=en).
-
 ### Why?
 
 There is no shortage of CSS grids available and with so many frameworks offering everything you need, it can be hard to know which use, or if any. Pre-styled and assembled from components, I see too many websites lacking creativity and imagination. Although a grid isn't necessary either, it can be a useful tool for speeding up development without interrupting your website's personality.
