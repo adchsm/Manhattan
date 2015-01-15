@@ -1,29 +1,32 @@
 # Manhattan
 
-Manhattan is a clean, lightweight and customisable CSS grid.
-
-Named after the greatest grid system in the world, Manhattan is a modern and easy to use CSS grid. It uses it's own data-attribute `mhtn` keeping your class markup clean.
+Named after the greatest grid system in the world, Manhattan is a clean, lightweight and customisable CSS grid. It uses it's own data-attribute `mhtn` keeping your class markup clean.
 
 It offers three containers, the default restricts content on screens over a specified width, whereas flex and edge allow you to maximize any screen.
 
-Manhattan doesn't use a traditional 12 column layout, but instead opts for straight forward percentages. There are five break points for total control over your layout, where you can specify a width for each column at each screen size.
+Manhattan doesn't use a traditional 12 column layout, but instead opts for straight forward percentages. There are five breakpoints for total control over your layout, where you can specify a width for each column at each screen size.
 
 Manhattan supports all modern browsers and most older ones, including IE 8 with the help of a media query polyfill.
 
-### Why?
+
+## Why?
 
 There is no shortage of CSS grids available and with so many frameworks offering everything you need, it can be hard to know which use, or if any. Pre-styled and assembled from components, I see too many websites lacking creativity and imagination. Although a grid isn't necessary either, it can be a useful tool for speeding up development without interrupting your website's personality.
 
-I struggled to find a flexible grid without a heavy footprint, so I created Manhattan. It's ultra light, weighing in at 2.8 kb minified/658 bytes gzipped and released under the MIT license, free to use and abuse.
+I struggled to find a flexible grid without a heavy footprint, so I created Manhattan. It's ultra light, weighing in at 2.8 kb minified/658 bytes gzipped and released under the <a href="<?php echo get_home_url(); ?>/license/">MIT license</a>, free to use and abuse.
+
 
 Enjoy
 
+
 ## Usage
 
-Take a look at the [Usage](http://www.adchsm.me/manhattan/usage.html) and [Demo](http://www.adchsm.me/manhattan/demos.html) pages on the Manhattan website.
+Take a look at the [Manhattan](http://www.adchsm.me/manhattan/) website for demos and usage docs.
+
 
 ## Version History
 
+* 1.0 Beta 2 - Added a data-attibute version for valid markup.
 * 1.0 Beta - Renamed a few variables, added Sass version created by [Benjamin Parry](https://github.com/benjaminparry).
 * 1.0 Alpha - Initial release.
 
@@ -34,6 +37,7 @@ Take a look at the [Usage](http://www.adchsm.me/manhattan/usage.html) and [Demo]
 * Release the first stable version
 * Column alignments
 * WordPress plugin
+
 
 ## How to Contribute Using GitHub
 
