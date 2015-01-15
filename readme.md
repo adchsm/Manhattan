@@ -16,9 +16,6 @@ There is no shortage of CSS grids available and with so many frameworks offering
 I struggled to find a flexible grid without a heavy footprint, so I created Manhattan. It's ultra light, weighing in at 2.8 kb minified/658 bytes gzipped and released under the MIT license, free to use and abuse.
 
 
-Enjoy
-
-
 ## Usage
 
 Take a look at the [Manhattan](http://www.adchsm.me/manhattan/) website for demos and usage docs.
