@@ -13,7 +13,7 @@ Manhattan supports all modern browsers and most older ones, including IE 8 with 
 
 There is no shortage of CSS grids available and with so many frameworks offering everything you need, it can be hard to know which use, or if any. Pre-styled and assembled from components, I see too many websites lacking creativity and imagination. Although a grid isn't necessary either, it can be a useful tool for speeding up development without interrupting your website's personality.
 
-I struggled to find a flexible grid without a heavy footprint, so I created Manhattan. It's ultra light, weighing in at 2.8 kb minified/658 bytes gzipped and released under the <a href="<?php echo get_home_url(); ?>/license/">MIT license</a>, free to use and abuse.
+I struggled to find a flexible grid without a heavy footprint, so I created Manhattan. It's ultra light, weighing in at 2.8 kb minified/658 bytes gzipped and released under the MIT license, free to use and abuse.
 
 
 Enjoy
