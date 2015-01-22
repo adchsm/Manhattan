@@ -48,16 +48,20 @@ If you have an idea or a request, just raise an issue. Please provide as much de
 
 ### 1.0
 *January 22, 2015*
+
 First official stable tag. Did a load of testing across browsers and everything looked great.
 
 ### 1.0 Beta 2
 *January 15, 2015*
+
 Added a data-attibute version for valid markup.
 
 ### 1.0 Beta
 *January 6, 2015*
+
 Renamed a few variables, added Sass version created by [Benjamin Parry](https://github.com/benjaminparry).
 
 ### 1.0 Alpha
 *December 28, 2014*
+
 Initial release.
