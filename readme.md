@@ -21,21 +21,6 @@ I struggled to find a flexible grid without a heavy footprint, so I created Manh
 Take a look at the [Manhattan](http://www.adchsm.me/manhattan/) website for demos and usage docs.
 
 
-## Version History
-
-* 1.0 Beta 2 - Added a data-attibute version for valid markup.
-* 1.0 Beta - Renamed a few variables, added Sass version created by [Benjamin Parry](https://github.com/benjaminparry).
-* 1.0 Alpha - Initial release.
-
-
-## Todo & Possible Future Features
-
-* Bug test
-* Release the first stable version
-* Column alignments
-* WordPress plugin
-
-
 ## How to Contribute Using GitHub
 
 ### Raising Issues
@@ -51,3 +36,28 @@ Pull request are welcome, please make sure your modifications are to the develop
 ### Feature Requests
 
 If you have an idea or a request, just raise an issue. Please provide as much detail as possible, demos and examples would be fantastic if appropriate.
+
+
+## Todo & Possible Future Features
+
+* Column alignments research
+* Mixin library
+
+
+## Version History
+
+### 1.0
+*January 22, 2015*
+First official stable tag. Did a load of testing across browsers and everything looked great.
+
+### 1.0 Beta 2
+*January 15, 2015*
+Added a data-attibute version for valid markup.
+
+### 1.0 Beta
+*January 6, 2015*
+Renamed a few variables, added Sass version created by [Benjamin Parry](https://github.com/benjaminparry).
+
+### 1.0 Alpha
+*December 28, 2014*
+Initial release.
