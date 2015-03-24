@@ -21,6 +21,13 @@ I struggled to find a flexible grid without a heavy footprint, so I created Manh
 Take a look at the [Manhattan](http://www.adchsm.me/manhattan/) website for demos and usage docs.
 
 
+## WordPress Plugin
+
+Manhattan for WordPress is a port of the CSS grid, equipped with easy to use buttons, menus and shortcodes.
+
+For usage guides, take a look at the [Manhattan](http://www.adchsm.me/manhattan/wordpress/) website.
+
+
 ## How to Contribute Using GitHub
 
 ### Raising Issues
