@@ -49,7 +49,7 @@ If you have an idea or a request, just raise an issue. Please provide as much de
 
 * Column alignments research
 * Mixin library
-* Make shortcodes editable with ui.
+* Make shortcodes editable with editor menu UI
 
 
 ## Version History
