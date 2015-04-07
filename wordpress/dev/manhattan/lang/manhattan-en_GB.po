@@ -1,0 +1,164 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Manhattan\n"
+"POT-Creation-Date: 2015-04-07 11:01+0100\n"
+"PO-Revision-Date: 2015-04-07 11:02+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: manhattan.php:36
+msgid "Insert"
+msgstr ""
+
+#: manhattan.php:38
+msgid "Container"
+msgstr ""
+
+#: manhattan.php:39
+msgid "Insert a Container"
+msgstr ""
+
+#: manhattan.php:40
+msgid "Please select the style for this container."
+msgstr ""
+
+#: manhattan.php:41
+msgid ""
+"Please note, containers are only for use on full width pages without "
+"sidebars or side navigation."
+msgstr ""
+
+#: manhattan.php:42
+msgid "Style"
+msgstr ""
+
+#: manhattan.php:43
+msgid "Contained (default)"
+msgstr ""
+
+#: manhattan.php:44
+msgid "Flex"
+msgstr ""
+
+#: manhattan.php:45
+msgid "Edge"
+msgstr ""
+
+#: manhattan.php:47
+msgid "Row"
+msgstr ""
+
+#: manhattan.php:49
+msgid "Column"
+msgstr ""
+
+#: manhattan.php:50
+msgid "Insert a Column"
+msgstr ""
+
+#: manhattan.php:51
+msgid "Please select widths for this column at different screen sizes."
+msgstr ""
+
+#: manhattan.php:52
+msgid "Unset"
+msgstr ""
+
+#: manhattan.php:54
+msgid "Clear"
+msgstr ""
+
+#: manhattan.php:55
+msgid "Insert a Clear"
+msgstr ""
+
+#: manhattan.php:56
+msgid ""
+"Please select which screen sizes you would like this clear to be active at."
+msgstr ""
+
+#: manhattan.php:57
+msgid ""
+"Insert this between columns that require clearing at certain screen sizes."
+msgstr ""
+
+#: manhattan.php:59
+msgid "Extra small screens"
+msgstr ""
+
+#: manhattan.php:60
+msgid "Small screens"
+msgstr ""
+
+#: manhattan.php:61
+msgid "Medium screens"
+msgstr ""
+
+#: manhattan.php:62
+msgid "Large screens"
+msgstr ""
+
+#: manhattan.php:63
+msgid "Extra large screens"
+msgstr ""
+
+#: manhattan.php:65
+msgid "Layouts"
+msgstr ""
+
+#: manhattan.php:66
+msgid "Two Columns: 50% - 50%"
+msgstr ""
+
+#: manhattan.php:67
+msgid "Three Columns: 33% - 33% - 33%"
+msgstr ""
+
+#: manhattan.php:68
+msgid "Four Columns: 25% - 25% - 25% - 25%"
+msgstr ""
+
+#: manhattan.php:69
+msgid "Five Columns: 20% - 20% - 20% - 20% - 20%"
+msgstr ""
+
+#: manhattan.php:70
+msgid "Two Columns: 75% - 25%"
+msgstr ""
+
+#: manhattan.php:71
+msgid "Two Columns: 25% - 75%"
+msgstr ""
+
+#: manhattan.php:72
+msgid "Two Columns: 66% - 33%"
+msgstr ""
+
+#: manhattan.php:73
+msgid "Two Columns: 33% - 66%"
+msgstr ""
+
+#: manhattan.php:74
+msgid "Three Columns: 50% - 25% - 25%"
+msgstr ""
+
+#: manhattan.php:75
+msgid "Three Columns: 25% - 50% - 25%"
+msgstr ""
+
+#: manhattan.php:76
+msgid "Three Columns: 25% - 25% - 50%"
+msgstr ""
