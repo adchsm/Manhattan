@@ -8,25 +8,23 @@ Manhattan doesn't use a traditional 12 column layout, but instead opts for strai
 
 Manhattan supports all modern browsers and most older ones, including IE 8 with the help of a media query polyfill.
 
-
 ## Why?
 
 There is no shortage of CSS grids available and with so many frameworks offering everything you need, it can be hard to know which use, or if any. Pre-styled and assembled from components, I see too many websites lacking creativity and imagination. Although a grid isn't necessary either, it can be a useful tool for speeding up development without interrupting your website's personality.
 
 I struggled to find a flexible grid without a heavy footprint, so I created Manhattan. It's ultra light, weighing in at 2.8 kb minified/658 bytes gzipped and released under the MIT license, free to use and abuse.
 
-
 ## Usage
 
-Take a look at the [Manhattan](http://www.adchsm.me/manhattan/) website for demos and usage docs.
-
+Take a look at the [Manhattan](http://www.adchsm.com/manhattan/) website for demos and usage docs.
 
 ## WordPress Plugin
 
 Manhattan for WordPress is a port of the CSS grid, equipped with easy to use buttons, menus and shortcodes.
 
-For usage guides, take a look at the [Manhattan](http://www.adchsm.me/manhattan/wordpress/) website.
+## Support
 
+If your having trouble using Manhattan head over to the [Help Center](https://adchsm.zendesk.com/hc/en-us/categories/200506872-Manhattan) where you can also [request support](https://adchsm.zendesk.com/hc/en-us/requests/new).
 
 ## How to Contribute Using GitHub
 
@@ -34,7 +32,7 @@ For usage guides, take a look at the [Manhattan](http://www.adchsm.me/manhattan/
 
 If you've found an issue that's great, I'd like to hear as I'm always looking to improve the grid.
 
-Please provide as much information about the bug as possible. Include a url which demonstrates the issue, or if you don't want to publicly reveal your url, create a [JSFiddle](http://jsfiddle.net/). Alternatively you can [email me](mailto:adam@adchsm.me) for support.
+Please provide as much information about the bug as possible. Include a url which demonstrates the issue, or if you don't want to publicly reveal your url, create a [JSFiddle](http://jsfiddle.net/). Alternatively you can [request support](https://adchsm.zendesk.com/hc/en-us/requests/new).
 
 ### Pull Requests
 
@@ -42,8 +40,7 @@ Pull request are welcome, please make sure your modifications are to the develop
 
 ### Feature Requests
 
-If you have an idea or a request, just raise an issue. Please provide as much detail as possible, demos and examples would be fantastic if appropriate.
-
+If you have an idea or a request you may raise an issue. Please provide as much detail as possible, demos and examples would be fantastic if appropriate.
 
 ## Todo & Possible Future Features
 
@@ -51,7 +48,6 @@ If you have an idea or a request, just raise an issue. Please provide as much de
 * Mixin library
 * Make shortcodes editable with editor menu UI
 * Finish making the plugin translatable
-
 
 ## Version History
 
