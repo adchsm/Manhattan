@@ -1,0 +1,7 @@
+{
+	"name": "manhattan",
+	"version": "1.1",
+	"main": [
+		"dist/manhattan.css",
+	]
+}
